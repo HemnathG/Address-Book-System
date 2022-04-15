@@ -6,8 +6,7 @@ public class AddressBookContacts {
     public long zip;
     public long phoneNo;
 
-    public AddressBookContacts(String firstName, String lastName, String address, String city, String state,
-                               String email, long zip, long phoneNo) {
+    public AddressBookContacts(String firstName, String lastName, String address, String city, String state, String email, long zip, long phoneNo) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;
