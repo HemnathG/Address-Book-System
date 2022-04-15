@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class AddressBook {
 
-    private ArrayList<AddressBookContacts> addressContactList;
-    private Map<String, AddressBookContacts> nameToContactDetailsMap;
+    ArrayList<AddressBookContacts> addressContactList;
+    Map<String, AddressBookContacts> nameToContactDetailsMap;
 
 
 
@@ -136,7 +136,7 @@ public class AddressBook {
         return contact;
     }
 
-    // Creating a Method and Deleting Contact with Using First Name
+    // Creating a Method - Deleting Contact with Using First Name
     public void deleteContact() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Name of Contact to Delete it");
@@ -165,7 +165,7 @@ public class AddressBook {
     }
 
 
-    //Adressbook uc-6
+    //Addressbook uc-6
     public AddressBook addressBookOption() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the address book system. Choose your option");
