@@ -2,6 +2,7 @@ package com.bridgelabz;
 
 public class AddressBookContacts {
 
+    // declaring variables
     public String firstName, lastName, address, city, state, email;
     public long zip;
     public long phoneNo;
@@ -16,7 +17,8 @@ public class AddressBookContacts {
         this.zip = zip;
         this.phoneNo = phoneNo;
     }
-    //using getter and setter methods
+
+    // using getter and setter methods
     public String getFirstName() {
         return firstName;
     }
